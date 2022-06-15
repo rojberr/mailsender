@@ -17,7 +17,7 @@ public class SenderController {
 
     private final SenderUseCase sender;
 
-    @PostMapping("/")
+    @PostMapping("/register")
     @ResponseStatus(HttpStatus.OK)
     public String doRegister(@ModelAttribute("user") User user) {
         sender.register(user.getEmail());

@@ -1,5 +1,6 @@
 package dev.drzymala.mailsender.sender.web;
 
+import dev.drzymala.mailsender.sender.domain.MyUser;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
@@ -16,7 +17,7 @@ public class HomeController {
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public String getIndex(Model model) {
-        User user = new User();
+        MyUser user = new MyUser();
         model.addAttribute("user", user);
         return "index";
     }

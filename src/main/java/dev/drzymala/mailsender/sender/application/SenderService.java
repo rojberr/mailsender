@@ -3,25 +3,21 @@ package dev.drzymala.mailsender.sender.application;
 
 import dev.drzymala.mailsender.sender.application.port.SenderUseCase;
 import lombok.AllArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 
-@Slf4j
 @Service
 @AllArgsConstructor
 public class SenderService implements SenderUseCase {
 
-    private final JavaMailSender mailSender;
 
     @Autowired
     private JavaMailSender javaMailSender;
 
     @Override
     public void register(String email) {
-        log.info("Sending register email");
         sendSimpleMessage(email);
     }
 

@@ -8,7 +8,6 @@ plugins {
 group = 'dev.drzymala'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
-mainClassName = "dev.drzymala.mailsender.MailsenderApplication"
 
 configurations {
 	compileOnly {
@@ -40,14 +39,4 @@ dependencies {
 
 tasks.named('test') {
 	useJUnitPlatform()
-}
-
-jar {
-	manifest {
-		attributes "Main-Class": "$mainClassName"
-	}
-
-	from {
-		configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
-	}
 }

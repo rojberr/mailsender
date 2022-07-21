@@ -1,6 +1,7 @@
 ## mailsender
 
-# Spring boot mail sender example 
+# Spring boot mail sender example
+
 
 ![Photo by Liza Summer: https://www.pexels.com/photo/focused-woman-checking-address-on-parcel-label-6348092/](readme-picture.jpg)
 
@@ -18,6 +19,11 @@ Thus, this application needs to be connected to different SMTP server. The plan 
 
 https://aws.amazon.com/de/ses/pricing/
 https://aws.amazon.com/ses/
+
+__It was however deployed beforehand here:__ 
+(it will still throw an error because of refused connection to smtp server - working on that 🏗️)
+
+👉  [m4ilsender.herokuapp.com/](m4ilsender.herokuapp.com/)
 
 # TODO
 

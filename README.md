@@ -23,7 +23,7 @@ https://aws.amazon.com/ses/
 __It was however deployed beforehand and is still accessible here:__ 
 (it will still throw an error because of refused connection to smtp server - working on that 🏗️)
 
-👉  [m4ilsender.herokuapp.com/](m4ilsender.herokuapp.com/)
+👉  [m4ilsender.herokuapp.com/](https://m4ilsender.herokuapp.com/)
 
 # TODO
 

@@ -20,10 +20,20 @@ Thus, this application needs to be connected to different SMTP server. The plan 
 https://aws.amazon.com/de/ses/pricing/
 https://aws.amazon.com/ses/
 
-__It was however deployed beforehand and is still accessible here:__ 
+## Usage
+
+__This API was however deployed beforehand and is still accessible here:__ 
 (it will still throw an error because of refused connection to smtp server - working on that 🏗️)
 
 👉  [m4ilsender.herokuapp.com/](https://m4ilsender.herokuapp.com/)
+
+To easily build a docker image and host it:
+- [Install Docker](https://docs.docker.com/get-docker/) on your system and build an image by typing:
+
+- then run the docker-compose.yml:
+
+> docker-compose.yml up
+
 
 # TODO
 

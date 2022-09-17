@@ -2,12 +2,12 @@
 
 # Spring boot mail sender example
 
+This is a Spring Boot mail sending exemplary application. 👮
 
 ![Photo by Liza Summer: https://www.pexels.com/photo/focused-woman-checking-address-on-parcel-label-6348092/](readme-picture.jpg)
 
-This is a Spring Boot mail sending exemplary application.
 
-# NOTE
+## ⚠️ NOTE ⚠️
 
 This API will currently throw an error during email sending!
 
@@ -20,7 +20,7 @@ Thus, this application needs to be connected to different SMTP server. The plan 
 https://aws.amazon.com/de/ses/pricing/
 https://aws.amazon.com/ses/
 
-## Usage
+## Usage 💡
 
 __This API was however deployed beforehand and is still accessible here:__ 
 (it will still throw an error because of refused connection to smtp server - working on that 🏗️)
@@ -28,14 +28,15 @@ __This API was however deployed beforehand and is still accessible here:__
 👉  [m4ilsender.herokuapp.com/](https://m4ilsender.herokuapp.com/)
 
 To easily build a docker image and host it:
-- [Install Docker](https://docs.docker.com/get-docker/) on your system and build an image by typing:
+- [Install Docker](https://docs.docker.com/get-docker/) on your system
 
-- then run the docker-compose.yml:
+- then run the docker-compose.yml, which will build the Docker image and run it:
+```bash
+docker-compose up
+```
 
-> docker-compose.yml up
 
-
-# TODO
+## TODO 📝
 
 - Configure Amazon SES service and connect it with this application
 - add cache to mail sending to disable appliation missuse 

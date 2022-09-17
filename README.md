@@ -35,7 +35,6 @@ To easily build a docker image and host it:
 docker-compose up
 ```
 
-
 ## TODO 📝
 
 - Configure Amazon SES service and connect it with this application

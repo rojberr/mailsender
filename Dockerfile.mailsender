@@ -2,9 +2,6 @@ FROM openjdk:17-jdk-alpine
 
 MAINTAINER rojberr <rojberr@outlook.com>
 
-# Add group for spring
-RUN addgroup -S spring && adduser -S spring -G spring
-
 # Set user
 USER spring:spring
 

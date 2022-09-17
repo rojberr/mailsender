@@ -1,6 +1,6 @@
-## mailsender
+# mailsender
 
-# Spring boot mail sender example
+## Spring boot mail sender example
 
 This is a Spring Boot mail sending exemplary application. 👮
 
@@ -12,11 +12,11 @@ This API will currently throw an error during email sending!
 
 As of 30 May Google blocked 3rd-party smtp api use (see picture below) which was configured with this application.
 
-![Google banned 3rd-party smtp use](google.png)
+![Google banned 3rd-party smtp use](assets/google.png)
 
 Thus, this application needs to be connected to different SMTP server. The plan is to use Amazon SES.
 
-https://aws.amazon.com/de/ses/pricing/
+https://aws.amazon.com/de/ses/pricing/ \
 https://aws.amazon.com/ses/
 
 ## Usage 💡

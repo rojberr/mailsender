@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -Dserver.port=$PORT -Dspring.profiles.active=default -jar target/*.jar
+web: java $JAVA_OPTS -Dserver.port=$PORT -Dspring.profiles.active=default -jar build/libs/mailsender-0.0.1-SNAPSHOT.jar

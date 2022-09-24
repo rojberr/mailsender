@@ -23,6 +23,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf:2.7.3'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator:2.7.3'
     implementation 'io.micrometer:micrometer-registry-prometheus:1.9.4'
     // Lombok
     compileOnly 'org.projectlombok:lombok'

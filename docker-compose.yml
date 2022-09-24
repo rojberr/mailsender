@@ -9,7 +9,6 @@ services:
       dockerfile: Dockerfile.mailsender
       args:
         buildno: 1
-
     ports:
       - "8080:8080"
 
@@ -19,3 +18,10 @@ services:
       timeout: 5s
       retries: 5
       start_period: 40s
+
+  prometheus:
+    image: 'prom/prometheus:latest'
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"

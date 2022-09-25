@@ -11,6 +11,7 @@ services:
         buildno: 1
     ports:
       - "8080:8080"
+      - "9000:9000"
 
     healthcheck:
       test: "curl --fail --silent localhost:8080/actuator/health | grep UP || exit 1"

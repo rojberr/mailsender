@@ -25,19 +25,16 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf:2.7.3'
     implementation 'org.springframework.boot:spring-boot-starter-actuator:2.7.3'
     implementation 'io.micrometer:micrometer-registry-prometheus:1.9.4'
-    // Lombok
-    compileOnly 'org.projectlombok:lombok'
-    annotationProcessor 'org.projectlombok:lombok'
     // Mail https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-mail
     implementation 'org.springframework.boot:spring-boot-starter-mail:2.7.3'
     // https://mvnrepository.com/artifact/com.google.api-client/google-api-client
     implementation 'com.google.api-client:google-api-client:2.0.0'
-
-
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-
     // Automatically created swagger page on host/swagger-ui.html
     implementation 'org.springdoc:springdoc-openapi-ui:1.6.11'
+    // Lombok
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
 }
 
 tasks.named('test') {

@@ -26,7 +26,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-actuator:2.7.4'
     implementation 'io.micrometer:micrometer-registry-prometheus:1.9.4'
     // Mail https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-mail
-    implementation 'org.springframework.boot:spring-boot-starter-mail:2.7.3'
+    implementation 'org.springframework.boot:spring-boot-starter-mail:2.7.4'
     // https://mvnrepository.com/artifact/com.google.api-client/google-api-client
     implementation 'com.google.api-client:google-api-client:2.0.0'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
